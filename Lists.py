@@ -20,7 +20,8 @@ multi_data = ['Ali', 123, True, 3.54, [23,45]]
 
 # 03. Nested Lists (Lists within Lists)
 #======================================
-# A nested list means one or more lists inside another list.Commonly used for representing 2D data (like matrices, tables, grids).
+# A nested list means one or more lists inside another list.
+# Commonly used for representing 2D data (like matrices, tables, grids).
 
 nested_list = [ [12,13,14,15], ['ali','Hero','Hamza','Sundas'], [3.4, 4.6, 1.2]]
 # print(nested_list)
@@ -29,7 +30,8 @@ nested_list = [ [12,13,14,15], ['ali','Hero','Hamza','Sundas'], [3.4, 4.6, 1.2]]
 
 # 04. Dynamic Lists
 #==================
-# All Python lists are dynamic, meaning they can grow or shrink in size during program execution.
+# All Python lists are dynamic, meaning they can grow or shrink in size during 
+# program execution.
 
 # ADDITION OF ELEMENTS IN LIST
 # ----------------------------
@@ -39,7 +41,7 @@ fruits.append('appricot')
 print(fruits, "List Appended")
 
 # Extending a List
-fruits.extend(['peach','pear','dragon fruit','raspberry','cherry','banana','berry','melon'])
+fruits.extend(['peach','pear','raspberry','cherry','banana','berry','melon'])
 print(fruits, 'List Extended')
 
 #Insert an element
